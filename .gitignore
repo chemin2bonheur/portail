@@ -119,6 +119,8 @@ index.php
 #modules/
 plugins/
 storage/
-themes/
+themes/demo
+themes/fabriciorabelo-squad
+themes/rainlab-vanilla
 vendor/
 /.gitignore
