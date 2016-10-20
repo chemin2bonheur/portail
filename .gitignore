@@ -107,7 +107,7 @@ nbactions.xml
 
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
-#.gitignore
+.gitignore
 .htaccess
 .idea/
 #CHANGE.MD
@@ -121,3 +121,4 @@ plugins/
 storage/
 themes/
 vendor/
+/.gitignore
