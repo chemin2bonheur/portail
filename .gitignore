@@ -116,7 +116,7 @@ bootstrap/
 config/
 gc7.txt
 index.php
-modules/
+#modules/
 plugins/
 storage/
 themes/
