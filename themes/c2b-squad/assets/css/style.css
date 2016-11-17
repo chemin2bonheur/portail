@@ -799,3 +799,20 @@ Parallax
 .captalize {
     text-transform: capitalize;
 }
+
+#footercg7 {
+    margin-top: -10px;
+    font-size: .9em;
+    line-height: 1;
+}
+
+#footergc7 p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+#footergc7 a.noDeco {
+    color: #f8f8f8;
+    text-decoration: none;   
+}
