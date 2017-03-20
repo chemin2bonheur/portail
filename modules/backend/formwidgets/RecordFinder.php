@@ -86,7 +86,7 @@ class RecordFinder extends FormWidgetBase
     //
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     protected $defaultAlias = 'recordfinder';
 
@@ -106,7 +106,7 @@ class RecordFinder extends FormWidgetBase
     protected $searchWidget;
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function init()
     {
@@ -143,7 +143,7 @@ class RecordFinder extends FormWidgetBase
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function render()
     {
@@ -154,7 +154,7 @@ class RecordFinder extends FormWidgetBase
     public function onRefresh()
     {
         list($model, $attribute) = $this->resolveModelAttribute($this->valueFrom);
-        $model->{$attribute} = post($this->formField->getName());
+        $model->{$attribute} = post($this->getFieldName());
 
         $this->prepareVars();
         return ['#'.$this->getId('container') => $this->makePartial('recordfinder')];
@@ -178,7 +178,7 @@ class RecordFinder extends FormWidgetBase
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     protected function loadAssets()
     {
@@ -186,7 +186,7 @@ class RecordFinder extends FormWidgetBase
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getSaveValue($value)
     {
@@ -194,7 +194,7 @@ class RecordFinder extends FormWidgetBase
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getLoadValue()
     {

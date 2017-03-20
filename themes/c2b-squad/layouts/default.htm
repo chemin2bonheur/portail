@@ -1,9 +1,11 @@
 description = "Default layout"
+
+[piwik]
 ==
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+<head>{% component 'piwik' %}
     <meta charset="utf-8">
     <title>{{ this.theme.site_name }} - {{ this.page.title }}</title>
 
@@ -68,5 +70,6 @@ description = "Default layout"
 
     <!-- Inline scripts -->
     <script>{% placeholder inline_scripts %}</script>
+    {% component 'piwik' %}
 </body>
 </html>

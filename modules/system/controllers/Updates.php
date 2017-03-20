@@ -110,7 +110,7 @@ class Updates extends Controller
 
             $readmeFiles = ['README.md', 'readme.md'];
             $upgradeFiles = ['UPGRADE.md', 'upgrade.md'];
-            $licenceFiles = ['LICENCE.md', 'licence.md'];
+            $licenceFiles = ['LICENCE.md', 'licence.md', 'LICENSE.md', 'license.md'];
 
             $readme = $changelog = $upgrades = $licence = $name = null;
             $code = str_replace('-', '.', $urlCode);
@@ -138,7 +138,7 @@ class Updates extends Controller
                 $this->vars['pluginHomepage'] = array_get($details, 'homepage');
             }
             else {
-                throw new ApplicationException('Plugin not found');
+                throw new ApplicationException(Lang::get('system::lang.updates.plugin_not_found'));
             }
 
             /*
@@ -200,7 +200,17 @@ class Updates extends Controller
     }
 
     /**
-     * {@inheritDoc}
+     * Override for ListController behavior.
+     * Modifies the CSS class for each row in the list to
+     *
+     * - hidden - Disabled by configuration
+     * - safe disabled - Orphaned or disabled
+     * - negative - Disabled by system
+     * - frozen - Frozen by the user
+     * - positive - Default CSS class
+     *
+     * @see Backend\Behaviors\ListController
+     * @return string
      */
     public function listInjectRowClass($record, $definition = null)
     {

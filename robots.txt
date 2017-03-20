@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /config/
 Disallow: /modules/
 Disallow: /plugins/
-Disallow: /storage/
+Disallow: /plugins/
 Disallow: /vendor/
