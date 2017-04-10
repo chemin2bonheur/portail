@@ -40,12 +40,7 @@ description = "Default layout"
     {% styles %}
 
     <!-- Inline styles -->
-    <style>{
-    %
-    placeholder
-    inline_styles
-    %
-    }</style>
+    <style>{% placeholder inline_styles %}</style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -78,10 +73,7 @@ description = "Default layout"
 {% scripts %}
 
 <!-- Inline scripts -->
-<script>{%
-    placeholder
-    inline_scripts %
-}</script>
+<script>{% placeholder inline_scripts %}</script>
 {% component 'piwik' %}
 </body>
 </html>
