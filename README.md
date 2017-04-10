@@ -1,9 +1,9 @@
 # Portail
 
 
-## http://portail.chemin2bonheur.com
+## http://Chemin2Bonheur.com
 
-(Remplacera page actuelle http://public.chemin2bonheur.com)
+(Remplace ancienne pagehttp://public.Chemin2Bonheur.com)
 
 -----------------------------------------------------------------------------------
 
