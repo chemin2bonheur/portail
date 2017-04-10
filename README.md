@@ -3,7 +3,7 @@
 
 ## http://Chemin2Bonheur.com
 
-(Remplace ancienne pagehttp://public.Chemin2Bonheur.com)
+(Remplace ancienne page: http://public.Chemin2Bonheur.com)
 
 -----------------------------------------------------------------------------------
 
