@@ -2576,12 +2576,6 @@ div.control-scrollpad[data-direction=horizontal] > .scrollpad-scrollbar .drag-ha
   min-width: 10px;
   width: auto;
 }
-.autocomplete.dropdown-menu {
-  background: white;
-}
-.autocomplete.dropdown-menu li a {
-  padding: 3px 12px;
-}
 .svg-icon-container img.svg-icon {
   display: none;
 }

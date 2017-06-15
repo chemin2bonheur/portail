@@ -5074,6 +5074,10 @@ html.cssanimations .cursor-loading-indicator.hide {
   padding-left: 15px;
   padding-right: 15px;
 }
+.field-recordfinder .btn.clear-record {
+  right: 30px;
+  margin-top: -44px;
+}
 .field-recordfinder .btn i {
   font-size: 14px;
 }

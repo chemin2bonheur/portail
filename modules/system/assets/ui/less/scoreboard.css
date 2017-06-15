@@ -3150,7 +3150,6 @@ a.control-status-list > ul li .status-text.danger:hover {
   color: white;
   width: 22px;
   height: 22px;
-  line-height: 22px;
   position: relative;
   top: -1px;
   -webkit-border-radius: 100px;
@@ -3159,6 +3158,7 @@ a.control-status-list > ul li .status-text.danger:hover {
 }
 .control-status-list > ul li .status-icon > i {
   font-size: 10px;
+  line-height: 22px;
 }
 .control-status-list > ul li .status-icon,
 .control-status-list > ul li .status-label {
